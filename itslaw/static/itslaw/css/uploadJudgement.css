@@ -1,0 +1,80 @@
+.upload-judgement{
+    padding: 15px;
+}
+
+.upload-judgement header{
+    font-size: 20px;
+    color: #1f7cad;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+
+.upload-judgement .standard-introductions{
+    position: relative;
+}
+
+.upload-judgement .standard-introductions .standard-introduction-title{
+    font-size: 16px;
+    color: #1a1a1a;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.upload-judgement .standard-introductions .standard-introduction{
+    font-size: 16px;
+    color: #333333;
+    line-height: 45px;
+}
+
+.upload-judgement .standard-introductions .standard-introduction .vertical-line{
+    border-left: 4px solid #1f7cad;
+    margin-right: 10px;
+}
+
+.upload-judgement .standard-introductions .standard-list{
+    color: #333333;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.upload-judgement .standard-introductions .standard-list .standard-item{
+    height: 40px;
+}
+
+.upload-judgement .standard-introductions .standard-list .standard-item.left-border{
+    border-left: 2px solid #1f7cad;
+}
+
+.upload-judgement .standard-introductions .standard-list .standard{
+    font-weight: 600;
+    margin-left: -11px;
+}
+
+.upload-judgement .standard-introductions .standard-list .standard .order-number{
+    border-radius: 50%;
+    background-color: #1f7cad;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 12px;
+    display: inline-block;
+    width: 19.5px;
+    line-height: 18.8px;
+    text-align: center;
+}
+
+.upload-judgement .standard-introductions .standard-list .standard .tip{
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.upload-judgement .standard-introductions .remarks{
+    font-size: 12px;
+    line-height: 60px;
+}
+
+.upload-judgement .standard-introductions  .standard-example{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

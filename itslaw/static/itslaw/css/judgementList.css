@@ -1,0 +1,281 @@
+
+/************ rewrite popover style : share related ************/
+.share-conditions .popover{
+    border-radius:2px;
+    text-align: center;
+}
+
+
+
+
+/************ rewrite js-tree style ************/
+.jstree-default .jstree-hovered{
+    background: none;
+    box-shadow: none;
+}
+
+
+
+/************ search judgement conditions related ************/
+/****关注检索条件****/
+.concern-conditions{
+    position: absolute;
+    top: 23px;
+    right: 75px;
+    border-left: 2px solid #dadada;
+    padding-left: 10px;
+}
+
+.concern-conditions .concern-conditions-btn{
+    background: url(../../images/seach/concern-conditions-icon.png) no-repeat left center;
+    background-size: 15px 15px;
+    padding-left: 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #156893;
+    cursor: pointer;
+}
+
+.concern-conditions .concern-conditions-btn:hover{
+    background: url(../../images/seach/concern-conditions-hovered-icon.png) no-repeat left center;
+    background-size: 15px 15px;
+    color: #f38e00;
+}
+
+.concern-conditions .concerned-conditions-btn{
+    background: url(../../images/seach/concerned-conditions-icon.png) no-repeat left center;
+    background-size: 15px 15px;
+    padding-left: 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #156893;
+    cursor: pointer;
+}
+
+.concern-conditions .concerned-conditions-btn:hover{
+    background: url(../../images/seach/concerned-conditions-hovered-icon.png) no-repeat left center;
+    background-size: 15px 15px;
+    color: #f38e00;
+}
+
+
+
+
+
+/****分享检索条件****/
+.share-conditions{
+    top: 23px;
+    right: 0px;
+    position: absolute;
+}
+
+.share-conditions .share-conditions-btn{
+    background: url(../../images/seach/share-conditions-icon.png) no-repeat left center;
+    background-size: 15px 15px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #156893;
+    cursor: pointer;
+}
+
+.share-conditions .share-conditions-btn:hover{
+    background: url(../../images/seach/share-conditions-hovered-icon.png) no-repeat left center;
+    background-size: 15px 15px;
+    color: #f38e00;
+}
+
+
+
+
+
+/************ judgement content related ************/
+
+.mainbody-list .judgements {
+    margin-bottom: 40px;
+}
+
+.mainbody-list .judgements .judgement {
+    border-top: 1px solid #e5e5e5;
+    min-width: 820px;
+    padding: 0px 15px;
+    position: relative;
+}
+
+.mainbody-list .judgements .judgement:hover {
+    background-color: #f2f4f6;
+}
+
+/****标签****/
+.judgements .judgement .judgement-labels{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+}
+
+.judgements .judgement .judgement-label{
+    display: inline-block;
+    padding: 0px 6px;
+    line-height: 24px;
+    background-color: #fc6e22;
+    color: #fff;
+    text-align: center;
+}
+
+/****属性****/
+.judgements .judgement .judgement-attribute-tags{
+    text-align: right;
+}
+
+.judgements .judgement .judgement-attribute-tags .judgement-attribute-tag{
+    display: inline-block;
+    margin-left: 5px;
+    width: 0;
+    height: 0;
+    border-top: 35px solid #447e9f;
+    border-right: 20px solid #447e9f;
+    border-bottom: 10px solid transparent;
+    border-left: 20px solid #447e9f;
+}
+
+.judgements .judgement .judgement-attribute-tags .judgement-attribute-tag .judgement-attribute-tag-content{
+    text-align: center;
+    position: relative;
+    min-width: 30px;
+    display: block;
+    color: white;
+    top: -24px;
+    left: -15px;
+}
+
+
+/****标题****/
+.judgements .judgement .judgement-title{
+    font-size: 20px;
+    font-weight: normal;
+    padding: 5px 0;
+    line-height: 30px;
+}
+
+.judgements .judgement .judgement-title > a{
+    color: #447e9f;
+    text-decoration: none;
+}
+.judgements .judgement .judgement-title > a:hover{
+    color: #2e6889;
+}
+
+.judgements .judgement .judgement-title > a:visited{
+    color: #acc2cd;
+}
+
+
+/****附属信息****/
+.judgements .judgement .judgement-raleted-infos{
+    color: #aeafb1;
+    font-size: 14px;
+    padding: 5px 0px;
+}
+
+.judgements .judgement .judgement-raleted-infos .judgement-raleted-info{
+    margin-right: 10px;
+}
+
+
+
+.judgements .judgement .judgement-sub-item{
+    padding: 8px 0px;
+}
+
+.judgements .judgement .judgement-sub-item .judgement-sub-item-header{
+    font-size: 16px;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.judgements .judgement .judgement-sub-item .judgement-sub-item-text {
+    color: #484848;
+    margin-top: 5px;
+    margin-left: 10px;
+    line-height: 22px;
+}
+
+
+/****关键词****/
+.judgements .judgement .judgement-keyword {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.judgements .judgement .judgement-keyword .keyword-match {
+    color: #a30000 !important;
+    font-size: 14px;
+}
+
+
+/****法院观点****/
+.judgements .judgement .word-frequency{
+    display: inline-block;
+    font-size: 12px;
+    color: white;
+    margin-right: 6px;
+}
+
+.judgements .judgement .word-frequency .word-frequency-name{
+    background-color: #447e9f;
+    padding: 2px 5px;
+}
+
+.judgements .judgement .word-frequency .word-frequency-count{
+    background-color: #8aacc2;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+
+
+/************ rewrite tooltip style ************/
+.judgements .judgement .word-frequency .tooltip.top .tooltip-arrow{
+    border-top-color: #447e9f;
+}
+
+.judgements .judgement .word-frequency .tooltip.top .tooltip-inner{
+    background-color: #447e9f;
+    border-radius: 0px;
+    width: 175px;
+}
+
+
+
+
+
+/****收藏、下载****/
+.judgements .judgement .judgement-operations {
+    text-align: right;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+/************ load more related ************/
+.load-more-judgement {
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    line-height: 50px;
+    margin: 30px auto;
+    cursor: pointer;
+    font-size: 16px;
+    color: #666;
+}
+
+.load-more-judgement:hover{
+    color: #f18d22;
+    background-color: #fafafa;
+}
+
+.loading-more-judgement {
+    border: 1px solid #e5e5e5;
+    height: 50px;
+    margin: 30px auto;
+    background: url(../../images/loading.gif) no-repeat center center #fafafa;
+}

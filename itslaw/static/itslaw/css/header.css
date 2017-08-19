@@ -1,0 +1,233 @@
+/********** rewrite tagit related style ************/
+
+/***** tagit dropdown list style *****/
+.tagit-autocomplete{
+    max-height: 600px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/***** dropdown-menu style *****/
+.search-mode-dropdown .dropdown-menu{
+    border-radius: 0px;
+    min-width: 85px;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+
+.header-11 {
+    width: 100%;
+    min-width: 1290px;
+    z-index: 100;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 50px;
+    background-color: #1c6991;
+    /*border-bottom: 1px solid #D0D6DB;*/
+}
+
+.header-11 .navbar .search-area {
+    padding-left: 0px;
+    padding-top: 12px;
+    margin-left: 30px;
+    margin-right: 5px;
+    float: left;
+    width: 490px;
+    webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.header-11 .navbar .input-area {
+    /*border: 1px solid #FFFFFF;*/
+    height: 48px;
+}
+
+.header-11 .user-profile a {
+    cursor: pointer
+}
+
+
+.headesr-11-startup-antiflicker {
+    border-bottom: 1px #bdc3c7 solid
+}
+
+.header-11 .navbar {
+    width: 1227px;
+    /*min-width: 1190px;*/
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.header-11 .navbar .header-logo {
+    display: inline;
+    position: absolute;
+    top: 18px;
+}
+
+.header-11 .navbar .search-option-area {
+    display: inline-block;
+    /*width: 626px;*/
+    height: 35px;
+    position: absolute;
+    top: 7px;
+    left: 188px;
+}
+
+.search-mode-dropdown{
+    cursor: pointer;
+    line-height: 35px;
+    max-height: 35px;
+    min-width: 100px;
+    padding-left: 20px;
+    background-color: #ffffff;
+    border: none;
+    position: absolute;
+    top: 7px;
+    left: 205px;
+}
+
+
+.search-mode-dropdown .dropdown-trigger{
+    display: inline-block;
+    line-height: 22px;
+    border-right: 1px solid rgba(150, 175, 174, 0.5);
+    padding-right: 10px;
+    margin-top: 7px;
+    font-size: 18px;
+    color: #447e9f;
+}
+
+.search-mode-dropdown .dropdown-trigger .triangle{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    margin-bottom: 3px;
+    vertical-align: middle;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+
+.search-mode-dropdown .dropdown-trigger .triangle.forward{
+    border-top: 5px dashed #447e9f;
+}
+
+.search-mode-dropdown.open .dropdown-trigger .triangle.forward{
+    border-top: none;
+    border-bottom: 5px dashed #447e9f !important;
+}
+
+
+.search-mode-dropdown .dropdown-content{
+    background-color: white;
+    border: 1px solid #f2f4f6;
+    border-top: none;
+    z-index: 100;
+}
+
+
+.search-mode-dropdown .dropdown-item {
+    font-size: 18px;
+    padding: 0px 9px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.search-mode-dropdown .dropdown-item:hover {
+    color: #eb9500;
+    background-color: #ecf0f1;
+}
+
+
+
+.header-11 .navbar .search-input-area {
+    position: absolute;
+    top: 0px;
+    left: 116px;
+    overflow: auto;
+    display: inline;
+    min-height: 35px;
+    max-height: 90px;
+    height: auto;
+    font-size: 14px;
+    width: 473px;
+    background-color: #ffffff;
+    border-left: none;
+    border-radius: 0px;
+    z-index: 100;
+}
+
+.header-11 .navbar .search-input-area >li{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+.header-11 .navbar .search-box-btn {
+    background-color: #447e9f;
+    display: inline-block;
+    line-height: 35px;
+    width: 35px;
+    padding-left: 10px;
+    position:absolute ;
+    left: 589px;
+    cursor: pointer;
+}
+
+.header-11 .navbar .search-box-btn:hover {
+    background-color: #f18d22;
+    webkit-transition: 0.25s;
+    transition: 0.25s;
+}
+
+
+.header-11 .navbar .search-in-result {
+    display: inline-block;
+    width: 95px;
+    line-height: 35px;
+    background-color: #437ca0;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    left: 640px;
+}
+
+.header-11 .navbar .search-in-result:hover {
+    background-color: #f18d22;
+}
+
+
+.header-11 .navbar .nav-header {
+    padding-top: 14px;
+    margin-left: 45px;
+    float: left;
+    font-size: 18px;
+    margin-right: 25px;
+}
+
+.header-11 .navbar .nav-header .current {
+    border-bottom: 3px solid #447e9f;
+}
+
+.header-11 .navbar .nav-header .nav-index {
+    font-size: 18px;
+    margin-right: 25px;
+    height: 48px;
+}
+
+.header-11 .navbar .nav-header .nav-personal-profile {
+    font-size: 18px;
+    margin-right: 50px;
+    height: 48px;
+}
+
+.header-11 .navbar .nav-header .nav-index, .header-11 .navbar .nav-header .nav-personal-profile:hover {
+    border-bottom: 3px solid #447e9f;
+}

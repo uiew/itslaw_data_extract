@@ -1,0 +1,177 @@
+.login-btn {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    line-height: 28px;
+    font-size: 14px;
+    padding: 0px 13px;
+    border-radius: 1px;
+}
+
+.header-11 .login-btn {
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.8);
+}
+
+.header-11 .login-btn:hover {
+    background-color: rgba(51,51,51,0.4);
+    border: 1px solid rgba(255,255,255,0.5);
+    webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.welcome-header .login-btn {
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.8);
+}
+
+.welcome-header .login-btn:hover {
+    background-color: rgba(51,51,51,0.4);
+    border: 1px solid rgba(255,255,255,0.5);
+    webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.welcome-header-float .login-btn {
+    color: #1f7cad;
+    border: 1px solid #1f7cad;
+}
+
+.welcome-header-float .login-btn:hover {
+    background-color: #e5f6ff;
+    border: 1px solid rgba(31,124,173,0.5);
+    webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+
+
+
+.register-btn {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    padding: 0px 13px;
+    margin-left: 15px;
+    border-radius: 1px;
+}
+
+.header-11 .register-btn {
+    color: #fff;
+    background-color: #1f7cad;
+}
+
+.header-11 .register-btn:hover{
+    background-color: #1c6991;
+    webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.welcome-header .register-btn {
+    color: #fff;
+    background-color: #1f7cad;
+}
+
+.welcome-header .register-btn:hover{
+    background-color: #1c6991;
+    webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.welcome-header-float .register-btn {
+    color: #fff;
+    background-color: #1f7cad;
+}
+
+.welcome-header-float .register-btn:hover{
+    background-color: #1c6991;
+    webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+
+
+
+
+.user-avatar{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.user-name{
+    color: #fff;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.header-11 .user-name,.welcome-header .user-name{
+    color: #fff;
+}
+
+.welcome-header-float .user-name{
+    color: #1f7cad;
+}
+
+
+.user-name:hover{
+    color: #f19726;
+    webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.user-operation-btn{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    vertical-align: middle;
+    margin: auto 15px;
+}
+
+.header-11 .user-setting,.welcome-header .user-setting{
+    background: url(../images/header/user-setting-icon.png) no-repeat center center;
+    background-size: 20px 20px;
+}
+
+.welcome-header-float .user-setting{
+    background: url(../images/header/user-setting-icon-blue.png) no-repeat center center;
+    background-size: 20px 20px;
+}
+
+.user-setting:hover{
+    background: url(../images/header/user-setting-hovered-icon.png) no-repeat center center;
+    background-size: 20px 20px;
+    webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.header-11 .user-notice,.welcome-header .user-notice{
+    background: url(../images/header/user-notice-icon.png) no-repeat center center;
+    background-size: 20px 20px;
+}
+
+.welcome-header-float .user-notice{
+    background: url(../images/header/user-notice-icon-blue.png) no-repeat center center;
+    background-size: 20px 20px;
+}
+
+.user-notice:hover{
+    background: url(../images/header/user-notice-hovered-icon.png) no-repeat center center;
+    background-size: 20px 20px;
+    webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.user-new-notice-count{
+    border-radius: 12px;
+    background: #e89100;
+    font-size: 12px;
+    padding: 1px 4px;
+    position: relative;
+    right: -15px;
+    top: -10px;
+    color: #ffffff;
+}

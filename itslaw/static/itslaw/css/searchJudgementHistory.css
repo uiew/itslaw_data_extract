@@ -1,0 +1,74 @@
+
+
+/************  search history related *************/
+.search-judgement-history-in-welcome{
+    width: 540px;
+    top: -10px;
+    left: 5px;
+}
+
+.search-judgement-history-in-header{
+    width: 459px;
+    top: 27px;
+    left: 120px;
+}
+
+.search-judgement-history-in-float-header{
+    width: 450px;
+    top: -10px;
+}
+
+
+
+.search-history-list {
+    max-height: 600px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.history-list{
+    border-bottom: 1px solid #e5e5e5;
+    padding: 8px 1em 8px .4em;
+}
+
+.history-list:hover{
+    background-color: #ecf0f1;
+}
+
+
+
+.history-label{
+    display: inline-block;
+    font-size: 14px;
+    background-color: #447e9f;
+    margin-right: 5px;
+    border-radius: 2px;
+    padding: 4px 8px;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.history-operation-area{
+    font-size: 12px;
+    color: #ACADAD;
+    text-align: right;
+    padding: 5px;
+}
+
+.history-operation-area .no-history{
+    float: left;
+}
+
+.history-operation-area .clear-history{
+    margin-right: 5px;
+    padding-right: 7px;
+    border-right: 1px solid #E4E7EA;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.history-operation-area .advanced-usage-introductions{
+    color: #ACADAD;
+    cursor: pointer;
+    text-decoration: underline;
+}

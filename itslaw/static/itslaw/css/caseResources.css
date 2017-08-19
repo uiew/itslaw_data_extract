@@ -1,0 +1,189 @@
+.case-resources-view{
+    min-height: 100%;
+    height: auto;
+    background-color: #fff;
+    width: 1180px;
+    margin: 45px auto;
+    padding: 0 85px;
+}
+
+.case-resources-view .view-title{
+    text-align: center;
+    font-size: 28px;
+    line-height: 65px;
+    color: #000;
+}
+
+.case-resources-view .tab-set{
+    text-align: center;
+}
+
+.case-resources-view .tab-set .tab{
+    display: inline-block;
+    margin-right: 55px;
+    width: 100px;
+    font-size: 16px;
+    color: #000;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+.case-resources-view .tab-set .tab.active{
+    background-color: #1f7cad;
+    color: #fff;
+}
+
+.case-resources-view .tab-set .tab:nth-last-child(1){
+    margin-right: 0px;
+}
+
+.case-resources-view .filters{
+    border: 1px solid #cadade;
+    padding: 5px 60px;
+}
+
+.case-resources-view .filters .filter{
+    margin: 5px 0;
+}
+
+.case-resources-view .filters .filter .item{
+    display: inline-block;
+    border: 1px solid #cadade;
+    padding: 0 15px;
+    line-height: 25px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.case-resources-view .filters .filter .item.active{
+    background-color: #1f7cad;
+    color: #fff;
+    border: 1px solid #1f7cad;
+}
+
+.case-resources-view .no-case-resources{
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #abaeb1;
+}
+
+.case-resources-view .case-resources table thead .catogary{
+    padding-left: 54px !important;
+}
+
+.case-resources-view .case-resources table tbody .catogary{
+    padding-left: 34px !important;
+}
+
+.case-resources-view .case-resources table thead{
+    background-color: #edf1f2;
+    color: #979797;
+    font-size: 14px;
+}
+
+.case-resources-view .case-resources table tbody td{
+    line-height: 75px;
+}
+
+.case-resources-view .case-resources table tbody tr:last-of-type{
+    border-bottom: 1px solid #ddd;
+}
+
+.case-resources-view .case-resources .related-time-icon{
+    color: #8d9294;
+}
+
+.case-resources-view .case-resources .avatar{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.case-resources-view .case-resources .btn-custom{
+    border: 1px solid #1f7cad;
+    border-radius: 2px;
+    color: #1f7cad;
+    line-height: 1;
+    min-width: 75px;
+}
+
+
+.category-icon{
+    display: inline-block;
+    width: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+}
+
+.category-icon.search{
+    background-color: #ffc107;
+}
+
+.category-icon.search:after{
+    content: '查';
+    font-size: 12px;
+}
+
+.category-icon.agent{
+    background-color: #ff5722;
+}
+
+.category-icon.agent:after{
+    content: '代';
+    font-size: 12px;
+}
+
+.category-icon.execution{
+    background-color: #4caf50;
+}
+
+.category-icon.execution:after{
+    content: '执';
+    font-size: 12px;
+}
+
+.category-icon.coorperation{
+    background-color: #03a9f4;
+}
+
+.category-icon.coorperation:after{
+    content: '执';
+    font-size: 12px;
+}
+
+
+.case-resources-view .resources-pagination{
+    text-align: right;
+}
+
+.case-resources-view .resources-pagination .pagination>.active>a{
+    background-color: #1f7cad;
+    border-color: #1f7cad;
+    color: #fff;
+}
+
+.publish-case-button{
+    display: block;
+    margin: 50px auto;
+    line-height: 55px;
+    width: 400px;
+    background-color: #1f7cad;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.publish-case-button:hover,.publish-case-button:focus{
+    color: #fff;
+}
+
+
+
+
+
+
